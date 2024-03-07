@@ -1,0 +1,23 @@
+Title=Calories Burnt Prediction
+Data Flow Diagram:-
+*Importing Libraries(modules)
+	->numpy  
+	->pandas  
+	->seaborn
+	->matplotlib
+	->Warnings
+		=>filterwarnings
+	->pandas_profiling
+	->sklearn
+		=>model_selection
+		=>metrics
+		=>XGBoost
+*Loading Data
+*Data Cleaning
+*Exploratory Data Analysis(EDA)
+	->Visualisation=Matplolib, plotly & Seaborn
+	->Pandas Profilling
+*Model Selection
+	->Model= XGBoost Regressor
+*Model Testing
+	->Training = mean_absolute_error
